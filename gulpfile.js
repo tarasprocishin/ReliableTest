@@ -14,12 +14,13 @@ var gulp       = require('gulp'), // Подключаем Gulp
 gulp.task('sass', async  function() { // Создаем таск Sass
     return gulp.src('app/sass/**/*.sass') // Берем источник
         .pipe(sass()) // Преобразуем Sass в CSS посредством gulp-sass
-        .pipe(autoprefixer(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true })) // Создаем префиксы
+        .pipe(autoprefixer(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true }))
+
         .pipe(gulp.dest('app/css')) // Выгружаем результата в папку app/css
         .pipe(browserSync.reload({stream: true})) // Обновляем CSS на странице при изменении
 });
 
-gulp.task('browser-sync', function() { // Создаем таск browser-sync
+gulp.task('browser-sync', async function() { // Создаем таск browser-sync
     browserSync({ // Выполняем browserSync
         server: { // Определяем параметры сервера
             baseDir: 'app' // Директория для сервера - app
@@ -44,7 +45,7 @@ gulp.task('code', function() {
 });
 
 gulp.task('css-libs', function() {
-    return gulp.src('app/sass/libs.sass') // Выбираем файл для минификации
+    return gulp.src('app/sass/_libs.sass') // Выбираем файл для минификации
         .pipe(sass()) // Преобразуем Sass в CSS посредством gulp-sass
         .pipe(cssnano()) // Сжимаем
         .pipe(rename({suffix: '.min'})) // Добавляем суффикс .min
@@ -90,7 +91,7 @@ gulp.task('clear', function (callback) {
     return cache.clearAll();
 })
 
-gulp.task('watch', function() {
+gulp.task('watch', async function() {
     gulp.watch('app/sass/**/*.sass', gulp.parallel('sass')); // Наблюдение за sass файлами
     gulp.watch('app/*.html', gulp.parallel('code')); // Наблюдение за HTML файлами в корне проекта
     gulp.watch(['app/js/common.js', 'app/libs/**/*.js'], gulp.parallel('scripts')); // Наблюдение за главным JS файлом и за библиотеками

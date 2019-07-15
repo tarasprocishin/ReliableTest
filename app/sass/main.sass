@@ -1,3 +1,139 @@
+@import "libs"
+
+$font-stack: Lato, sans-serif
+=widthSection()
+  margin: 0 auto
+  width: 1200px
+  padding: 0 30px
+
+=flexible()
+  display: flex
+  justify-content: space-between
+  align-items: center
+
+=nav-bar__ul()
+      margin: 0
+      padding: 0
+      list-style: none
+
+=nav-bar__li()
+      display: inline-block
+
+=nav-bar__a()
+      display: block
+      padding: 6px 0
+      text-decoration: none
+      text-transform: uppercase
+      font-size: 16px
+      transition: 0.5s
+
+=after-box()
+      content: ''
+      width: 100%
+      height: 5px
+      background-color: #00b5d2
+      position: absolute
+      top: 48px
+      right: 0
+      transition: 0.5s
+
+=button()
+      color: white
+      width: 285px
+      height: 60px
+      background-color: #e1aa6e
+      text-decoration: none
+      line-height: 60px
+      text-align: center
+      text-transform: uppercase
+      font-size: 20px
+      box-shadow:  0 10px 2px 0 #ba8e5b
+
+=button-hover()
+  background-color: #00b5d2
+  box-shadow:  0 10px 2px 0 #008ea5
+
+
+
+
 body
-  font-family: 'Lato', sans-serif
+  font-family: $font-stack
+  box-sizing: border-box
+
+
+.find-help
+  +widthSection
+  height: 660px
+  background-image: url('../img/jared-sluyter-342881.png')
+  background-repeat: no-repeat
+  background-size: contain
+
+.find-help__navigation
+  +flexible
+
+.find-help__nav-bar
+  ul
+    +nav-bar__ul
+    li
+      +nav-bar__li
+      a
+        +nav-bar__a
+        color: #454546
+        font-weight: 400
+        position: relative
+        margin: 20px
+        &::after
+          +after-box
+          opacity: 0
+        &:hover
+          color: #ffffff
+          &::after
+            opacity: 1
+
+
+.find-help__content
+  display: flex
+  justify-content: right
+  flex-direction: column
+  width: 450px
+  margin-top: 130px
+  color: #ffffff
+
+.find-help__h2
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.5)
+  font-size: 48px
+  font-weight: 900
+  position: relative
+  &::after
+    +after-box
+    width: 80px
+    left: 180px
+    top: 68px
+
+.find-help__text
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.5)
+  font-size: 18px
+  line-height: 30px
+  margin: 0
+
+.find-help__button
+  +button
+  transition: 0.5s
+  margin-top: 46px
+  &:hover
+   +button-hover
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
