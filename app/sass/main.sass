@@ -1,15 +1,11 @@
 @import "libs"
 
 $font-stack: Lato, sans-serif
+
 =widthSection()
   margin: 0 auto
   width: 1200px
   padding: 0 30px
-
-=flexible()
-  display: flex
-  justify-content: space-between
-  align-items: center
 
 =nav-bar__ul()
       margin: 0
@@ -37,7 +33,13 @@ $font-stack: Lato, sans-serif
       right: 0
       transition: 0.5s
 
-=button()
+=h2-style()
+  font-size: 48px
+  font-weight: 900
+
+
+
+.button
       color: white
       width: 285px
       height: 60px
@@ -49,17 +51,17 @@ $font-stack: Lato, sans-serif
       font-size: 20px
       box-shadow:  0 10px 2px 0 #ba8e5b
 
-=button-hover()
+.button:hover
   background-color: #00b5d2
   box-shadow:  0 10px 2px 0 #008ea5
-
-
-
 
 body
   font-family: $font-stack
   box-sizing: border-box
+  font-size: 18px
 
+p
+  line-height: 30px
 
 .find-help
   +widthSection
@@ -69,7 +71,10 @@ body
   background-size: contain
 
 .find-help__navigation
-  +flexible
+  display: flex
+  justify-content: space-between
+  align-items: center
+  padding-top: 20px
 
 .find-help__nav-bar
   ul
@@ -81,7 +86,7 @@ body
         color: #454546
         font-weight: 400
         position: relative
-        margin: 20px
+        margin: 0 20px
         &::after
           +after-box
           opacity: 0
@@ -100,10 +105,9 @@ body
   color: #ffffff
 
 .find-help__h2
-  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.5)
-  font-size: 48px
-  font-weight: 900
+  +h2-style
   position: relative
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.5)
   &::after
     +after-box
     width: 80px
@@ -112,16 +116,62 @@ body
 
 .find-help__text
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.5)
-  font-size: 18px
-  line-height: 30px
-  margin: 0
 
 .find-help__button
-  +button
   transition: 0.5s
   margin-top: 46px
-  &:hover
-   +button-hover
+
+
+.partners
+  +widthSection
+  height: 100px
+  background-color: #fafafa
+  display: flex
+  justify-content: space-around
+  align-items: center
+
+.support
+  +widthSection
+  height: 500px
+  background-color: #00b5d2
+  color: white
+  display: flex
+  flex-direction: column
+  background-image: url("../img/man.png")
+  background-repeat: no-repeat
+  background-position: center 278px
+  align-items: center
+
+.support__h2
+  +h2-style
+  margin-top: 100px
+
+.contact
+  +widthSection
+  height: 360px
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
+
+.contact__title
+  font-size: 24px
+  font-weight: bold
+  color: #777777
+
+.contact__text
+  color: #444444
+  width: 760px
+  text-align: center
+
+.contact__button
+  margin-top: 42px
+
+
+
+
+
+
 
 
 

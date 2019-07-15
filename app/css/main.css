@@ -1,8 +1,30 @@
 @import url(../libs/normalize.css/normalize.css);
+.button {
+  color: white;
+  width: 285px;
+  height: 60px;
+  background-color: #e1aa6e;
+  text-decoration: none;
+  line-height: 60px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+  -webkit-box-shadow: 0 10px 2px 0 #ba8e5b;
+          box-shadow: 0 10px 2px 0 #ba8e5b; }
+
+.button:hover {
+  background-color: #00b5d2;
+  -webkit-box-shadow: 0 10px 2px 0 #008ea5;
+          box-shadow: 0 10px 2px 0 #008ea5; }
+
 body {
   font-family: Lato, sans-serif;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box; }
+          box-sizing: border-box;
+  font-size: 18px; }
+
+p {
+  line-height: 30px; }
 
 .find-help {
   margin: 0 auto;
@@ -25,7 +47,8 @@ body {
   -webkit-box-align: center;
   -webkit-align-items: center;
       -ms-flex-align: center;
-          align-items: center; }
+          align-items: center;
+  padding-top: 20px; }
 
 .find-help__nav-bar ul {
   margin: 0;
@@ -45,7 +68,7 @@ body {
       color: #454546;
       font-weight: 400;
       position: relative;
-      margin: 20px; }
+      margin: 0 20px; }
       .find-help__nav-bar ul li a::after {
         content: '';
         width: 100%;
@@ -82,10 +105,10 @@ body {
   color: #ffffff; }
 
 .find-help__h2 {
-  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.5);
   font-size: 48px;
   font-weight: 900;
-  position: relative; }
+  position: relative;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.5); }
   .find-help__h2::after {
     content: '';
     width: 100%;
@@ -102,28 +125,93 @@ body {
     top: 68px; }
 
 .find-help__text {
-  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.5);
-  font-size: 18px;
-  line-height: 30px;
-  margin: 0; }
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.5); }
 
 .find-help__button {
-  color: white;
-  width: 285px;
-  height: 60px;
-  background-color: #e1aa6e;
-  text-decoration: none;
-  line-height: 60px;
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 20px;
-  -webkit-box-shadow: 0 10px 2px 0 #ba8e5b;
-          box-shadow: 0 10px 2px 0 #ba8e5b;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
   margin-top: 46px; }
-  .find-help__button:hover {
-    background-color: #00b5d2;
-    -webkit-box-shadow: 0 10px 2px 0 #008ea5;
-            box-shadow: 0 10px 2px 0 #008ea5; }
+
+.partners {
+  margin: 0 auto;
+  width: 1200px;
+  padding: 0 30px;
+  height: 100px;
+  background-color: #fafafa;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.support {
+  margin: 0 auto;
+  width: 1200px;
+  padding: 0 30px;
+  height: 500px;
+  background-color: #00b5d2;
+  color: white;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-image: url("../img/man.png");
+  background-repeat: no-repeat;
+  background-position: center 278px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.support__h2 {
+  font-size: 48px;
+  font-weight: 900;
+  margin-top: 100px; }
+
+.contact {
+  margin: 0 auto;
+  width: 1200px;
+  padding: 0 30px;
+  height: 360px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.contact__title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #777777; }
+
+.contact__text {
+  color: #444444;
+  width: 760px;
+  text-align: center; }
+
+.contact__button {
+  margin-top: 42px; }
