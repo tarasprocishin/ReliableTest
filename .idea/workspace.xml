@@ -18,23 +18,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="57" column="22" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
+            <state relative-caret-position="398">
+              <caret line="97" column="12" selection-start-line="97" selection-start-column="12" selection-end-line="97" selection-end-column="12" />
               <folding>
-                <element signature="n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#4;n#main#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="182" selection-start-line="182" selection-end-line="182" />
+            <state relative-caret-position="277">
+              <caret line="255" column="14" selection-start-line="255" selection-start-column="14" selection-end-line="255" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -56,8 +56,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1268">
-              <caret line="105" selection-start-line="105" selection-end-line="105" />
+            <state relative-caret-position="1635">
+              <caret line="109" selection-start-line="109" selection-end-line="109" />
             </state>
           </provider>
         </entry>
@@ -104,8 +104,8 @@
         <option value="$PROJECT_DIR$/dist/index.html" />
         <option value="$PROJECT_DIR$/app/libs/normalize.css/normalize.css" />
         <option value="$PROJECT_DIR$/app/css/main.css" />
-        <option value="$PROJECT_DIR$/app/sass/main.sass" />
         <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/app/sass/main.sass" />
       </list>
     </option>
   </component>
@@ -121,6 +121,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -161,7 +162,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -202,7 +202,8 @@
       <workItem from="1563122753809" duration="2898000" />
       <workItem from="1563127808002" duration="503000" />
       <workItem from="1563177733809" duration="26972000" />
-      <workItem from="1563249083649" duration="1337000" />
+      <workItem from="1563249083649" duration="1572000" />
+      <workItem from="1563267542142" duration="6557000" />
     </task>
     <task id="LOCAL-00001" summary="Implement section - &quot;find-help&quot;">
       <created>1563214921646</created>
@@ -218,11 +219,18 @@
       <option name="project" value="LOCAL" />
       <updated>1563221025982</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Implement sections - &quot;Photos&quot;, end start &quot;join for us&quot; section">
+      <created>1563250646978</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1563250646978</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31710000" />
+    <option name="totallyTimeSpent" value="38502000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -265,7 +273,8 @@
     <MESSAGE value="Created main structure project" />
     <MESSAGE value="Implement section - &quot;find-help&quot;" />
     <MESSAGE value="Implement sections - &quot;Suport&quot;, &quot;Contact&quot;, &quot;Partners&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement sections - &quot;Suport&quot;, &quot;Contact&quot;, &quot;Partners&quot;" />
+    <MESSAGE value="Implement sections - &quot;Photos&quot;, end start &quot;join for us&quot; section" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement sections - &quot;Photos&quot;, end start &quot;join for us&quot; section" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/libs/magnific-popup/.jshintrc">
@@ -352,10 +361,10 @@
     <entry file="file://$PROJECT_DIR$/app/css/libs.min.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/_libs.sass">
+    <entry file="file://$PROJECT_DIR$/app/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="45" selection-start-column="45" selection-end-column="45" />
+        <state relative-caret-position="1635">
+          <caret line="109" selection-start-line="109" selection-end-line="109" />
         </state>
       </provider>
     </entry>
@@ -369,27 +378,27 @@
     <entry file="file://$PROJECT_DIR$/app/css/libs.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/css/main.css">
+    <entry file="file://$PROJECT_DIR$/app/sass/_libs.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1268">
-          <caret line="105" selection-start-line="105" selection-end-line="105" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="182" selection-start-line="182" selection-end-line="182" />
+        <state>
+          <caret column="45" selection-start-column="45" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="57" column="22" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
+        <state relative-caret-position="398">
+          <caret line="97" column="12" selection-start-line="97" selection-start-column="12" selection-end-line="97" selection-end-column="12" />
           <folding>
-            <element signature="n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#4;n#main#0;n#body#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="255" column="14" selection-start-line="255" selection-start-column="14" selection-end-line="255" selection-end-column="14" />
         </state>
       </provider>
     </entry>
