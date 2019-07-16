@@ -215,3 +215,27 @@ p {
 
 .contact__button {
   margin-top: 42px; }
+
+.photos {
+  margin: 0 auto;
+  width: 1200px;
+  padding: 0 30px;
+  height: 600px;
+  background-color: #1b97c5;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: url("../img/Layer_2.png"); }
+
+.photo__item {
+  position: relative;
+  bottom: -50px; }
