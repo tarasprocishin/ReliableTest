@@ -11,9 +11,12 @@
 </head>
 <body>
     <main>
-        <section class="find-help">
+        <section class="find-help size-section">
             <div class="find-help__navigation">
                 <img src="./img/Logo.png" alt="Logo" class="logo">
+                <button>
+                    <i class="icon-menu burger"></i>
+                </button>
                 <nav class="find-help__nav-bar">
                     <ul>
                         <li><a href="#">home</a></li>
@@ -23,7 +26,7 @@
                 </nav>
             </div>
             <div class="find-help__content">
-                <h2 class="find-help__h2" >
+                <h2 class="find-help__title title" >
                     We can help
                 </h2>
                 <p class="find-help__text">
@@ -34,29 +37,29 @@
                 </a>
             </div>
         </section>
-        <section class="partners">
-            <img src="../img/Magellan-122.png" alt="">
-            <img src="../img/Kaiser_Permanente-143.png" alt="">
-            <img src="../img/Anthem-158.png" alt="">
-            <img src="../img/North_Bay_Regional_Center-189.png" alt="">
-            <img src="../img/Partnership_Health_Plan_of_CA-175.png" alt="">
-            <img src="../img/Aetna-140.png" alt="">
+        <section class="partners size-section">
+            <img src="../img/Magellan-122.png" alt="" class="partners__item">
+            <img src="../img/Kaiser_Permanente-143.png" alt="" class="partners__item">
+            <img src="../img/Anthem-158.png" alt=""class="partners__item">
+            <img src="../img/North_Bay_Regional_Center-189.png" alt="" class="partners__item">
+            <img src="../img/Partnership_Health_Plan_of_CA-175.png" alt="" class="partners__item">
+            <img src="../img/Aetna-140.png" alt="" class="partners__item">
         </section>
-        <section class="support">
-            <h2 class="support__h2">Support For People Of All Walks of Life</h2>
+        <section class="support size-section">
+            <h2 class="support__title title">Support For People Of All Walks of Life</h2>
             <p class="support__text">Children as young as 2 years old may begin to develop behaviors which need extra support and attention.</p>
         </section>
-        <section class="contact">
-            <h3 class="contact__title">McGrew Behavior Services Helps...</h3>
+        <section class="contact size-section">
+            <h3 class="contact__title title">McGrew Behavior Services Helps...</h3>
             <p class="contact__text">Families, organizations and health care providers in Northern California. Our knowledge and experience provide the specialized support people need when overcoming behavioral challenges. </p>
             <a href="#" class="contact__button button">Contact Us</a>
         </section>
-        <section class="photos">
+        <section class="photos size-section">
             <img src="../img/Layer_3.png" alt="" class="photo__item">
         </section>
-        <section class="join-our-team">
-            <div  class="join-our-team__picture">
-            <img src="../img/Picture.png" alt="">
+        <section class="join-our-team size-section">
+            <div>
+            <img src="../img/Picture.png" alt="" class="join-our-team__picture">
             </div>
             <div class="join-our-team__content">
                 <p class="join-our-team__text__italic">
@@ -77,8 +80,7 @@
             </div>
         </section>
     </main>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <footer class="footer">
+    <footer class="footer size-section">
         <nav class="footer__nav-bar">
             <ul>
                 <li><a href="#">home</a></li>
@@ -100,5 +102,17 @@
             Copyright Ⓒ 2017 McGrews Behavior Services All Rights Reserved
         </p>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+            let navBar = $('.find-help__nav-bar')
+            let burger = $('.burger')
+
+            burger.on('click', function (event) {
+                event.preventDefault();
+                navBar.toggleClass('find-help__nav-bar__active')
+            })
+        })
+    </script>
 </body>
 </html>

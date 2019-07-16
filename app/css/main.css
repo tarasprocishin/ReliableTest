@@ -1,4 +1,71 @@
+@charset "UTF-8";
 @import url(../libs/normalize.css/normalize.css);
+@font-face {
+  font-family: 'fontello';
+  src: url("../fonts/fontello.eot?78419754");
+  src: url("../fonts/fontello.eot?78419754#iefix") format("embedded-opentype"), url("../fonts/fontello.woff2?78419754") format("woff2"), url("../fonts/fontello.woff?78419754") format("woff"), url("../fonts/fontello.ttf?78419754") format("truetype"), url("../fonts/fontello.svg?78419754#fontello") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es fonts will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @fonts-face {
+    fonts-family: 'fontello';
+    src: url('../fonts/fontello.svg?78419754#fontello') format('svg');
+  }
+}
+*/
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 2em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+  /* you can be more comfortable with increased icons size */
+  /* fonts-size: 120%; */
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */ }
+
+.icon-menu:before {
+  content: '\f0c9'; }
+
+/* '' */
+body {
+  font-family: Lato, sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 18px; }
+
+p {
+  line-height: 30px; }
+
+.size-section {
+  margin: 0 auto;
+  width: 1200px;
+  padding: 0 30px; }
+
+.title {
+  font-size: 48px;
+  font-weight: 900; }
+
 .button {
   color: white;
   width: 285px;
@@ -19,26 +86,10 @@
   -webkit-box-shadow: 0 10px 2px 0 #008ea5;
           box-shadow: 0 10px 2px 0 #008ea5; }
 
-body {
-  font-family: Lato, sans-serif;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  font-size: 18px; }
-
-p {
-  line-height: 30px; }
-
-a {
-  text-decoration: none; }
-
 .find-help {
-  margin: 0 auto;
-  width: 1200px;
-  padding: 0 30px;
-  height: 660px;
   background-image: url("../img/jared-sluyter-342881.png");
   background-repeat: no-repeat;
-  background-size: contain; }
+  background-size: cover; }
 
 .find-help__navigation {
   display: -webkit-box;
@@ -90,6 +141,13 @@ a {
         .find-help__nav-bar ul li a:hover::after {
           opacity: 1; }
 
+.burger {
+  color: #464646;
+  font-size: 25px;
+  display: none; }
+  .burger:hover {
+    cursor: pointer; }
+
 .find-help__content {
   display: -webkit-box;
   display: -webkit-flex;
@@ -104,16 +162,14 @@ a {
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 450px;
+  width: 40%;
   margin-top: 130px;
   color: #ffffff; }
 
-.find-help__h2 {
-  font-size: 48px;
-  font-weight: 900;
+.find-help__title {
   position: relative;
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.5); }
-  .find-help__h2::after {
+  .find-help__title::after {
     content: '';
     width: 100%;
     height: 5px;
@@ -132,12 +188,10 @@ a {
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.5); }
 
 .find-help__button {
-  margin-top: 46px; }
+  margin-top: 46px;
+  margin-bottom: 150px; }
 
 .partners {
-  margin: 0 auto;
-  width: 1200px;
-  padding: 0 30px;
   height: 100px;
   background-color: #fafafa;
   display: -webkit-box;
@@ -153,9 +207,6 @@ a {
           align-items: center; }
 
 .support {
-  margin: 0 auto;
-  width: 1200px;
-  padding: 0 30px;
   height: 500px;
   background-color: #00b5d2;
   color: white;
@@ -176,15 +227,10 @@ a {
       -ms-flex-align: center;
           align-items: center; }
 
-.support__h2 {
-  font-size: 48px;
-  font-weight: 900;
+.support__title {
   margin-top: 100px; }
 
 .contact {
-  margin: 0 auto;
-  width: 1200px;
-  padding: 0 30px;
   height: 360px;
   display: -webkit-box;
   display: -webkit-flex;
@@ -202,7 +248,8 @@ a {
   -webkit-box-pack: center;
   -webkit-justify-content: center;
       -ms-flex-pack: center;
-          justify-content: center; }
+          justify-content: center;
+  text-align: center; }
 
 .contact__title {
   font-size: 24px;
@@ -211,16 +258,13 @@ a {
 
 .contact__text {
   color: #444444;
-  width: 760px;
+  width: 70%;
   text-align: center; }
 
 .contact__button {
   margin-top: 42px; }
 
 .photos {
-  margin: 0 auto;
-  width: 1200px;
-  padding: 0 30px;
   height: 600px;
   background-color: #1b97c5;
   display: -webkit-box;
@@ -239,12 +283,11 @@ a {
 
 .photo__item {
   position: relative;
-  bottom: -50px; }
+  bottom: -50px;
+  max-width: 70%;
+  height: auto; }
 
 .join-our-team {
-  margin: 0 auto;
-  width: 1200px;
-  padding: 0 30px;
   color: white;
   padding: 0;
   height: 440px;
@@ -275,8 +318,6 @@ a {
   font-style: italic; }
 
 .join-our-team__title {
-  font-size: 48px;
-  font-weight: 900;
   position: relative; }
   .join-our-team__title::after {
     content: '';
@@ -289,17 +330,14 @@ a {
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
-    width: 120px;
-    left: 200px;
-    top: 60px; }
+    width: 65px;
+    left: 110px;
+    top: 33px; }
 
 .join-our-team__text {
   margin-bottom: 30px; }
 
 .footer {
-  margin: 0 auto;
-  width: 1200px;
-  padding: 0 30px;
   color: #aaaaaa;
   padding: 0;
   height: 400px;
@@ -348,3 +386,129 @@ a {
   letter-spacing: 0.6px;
   opacity: 0.6;
   line-height: 99px; }
+
+@media (max-width: 480px) {
+  body {
+    margin: 0;
+    font-size: 14px; }
+  p {
+    line-height: 20px; }
+  .title {
+    font-size: 32px; }
+  .size-section {
+    width: 100%;
+    padding: 5px;
+    height: auto; }
+  .button {
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    -webkit-box-shadow: 0 5px 2px 0 #ba8e5b;
+            box-shadow: 0 5px 2px 0 #ba8e5b;
+    margin-bottom: 15px; }
+  .button:hover {
+    -webkit-box-shadow: 0 5px 2px 0 #008ea5;
+            box-shadow: 0 5px 2px 0 #008ea5; }
+  .find-help {
+    height: auto;
+    background-size: auto 100%; }
+  .logo {
+    max-width: 55%;
+    height: auto; }
+  .find-help__navigation {
+    padding-top: 5px;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    position: relative; }
+  .burger {
+    display: inline-block; }
+  .find-help__nav-bar {
+    display: none; }
+    .find-help__nav-bar ul li {
+      width: 100%; }
+      .find-help__nav-bar ul li:hover {
+        background-color: #ba8e5b; }
+      .find-help__nav-bar ul li a::after {
+        display: none; }
+        .find-help__nav-bar ul li a::after:hover {
+          color: #ffffff; }
+    .find-help__nav-bar__active {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      position: absolute;
+      top: 40px;
+      right: 20px;
+      background-color: rgba(238, 238, 238, 0.9);
+      width: 120px;
+      opacity: 0.6; }
+  .find-help__content {
+    margin-top: 20px;
+    width: 50%; }
+  .find-help__title::after {
+    width: 70px;
+    left: 110px;
+    top: 40px; }
+  .find-help__button {
+    margin-top: 26px; }
+  .partners {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    height: auto;
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around; }
+  .partners__item {
+    padding: 10px; }
+  .support {
+    height: auto;
+    text-align: center;
+    background-position: center 200px;
+    background-size: 80% auto; }
+  .support__title {
+    margin-top: 20px; }
+  .support__text {
+    width: auto;
+    margin-bottom: 125px; }
+  .join-our-team {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0; }
+  .join-our-team__picture {
+    max-width: 100%;
+    height: auto; }
+  .join-our-team__content {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0;
+    width: 90%;
+    text-align: center; }
+  .join-our-team__title::after {
+    content: '';
+    width: 100%;
+    height: 5px;
+    background-color: #00b5d2;
+    position: absolute;
+    top: 48px;
+    right: 0;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    width: 50px;
+    left: 87px;
+    top: 25px; }
+  .footer {
+    margin-top: 55px; } }
