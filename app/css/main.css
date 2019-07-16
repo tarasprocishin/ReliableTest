@@ -52,7 +52,8 @@ body {
   font-family: Lato, sans-serif;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-size: 18px; }
+  font-size: 18px;
+  margin: 0; }
 
 p {
   line-height: 30px; }
@@ -222,10 +223,12 @@ p {
   background-image: url("../img/man.png");
   background-repeat: no-repeat;
   background-position: center 278px;
+  background-size: 80% auto;
   -webkit-box-align: center;
   -webkit-align-items: center;
       -ms-flex-align: center;
-          align-items: center; }
+          align-items: center;
+  text-align: center; }
 
 .support__title {
   margin-top: 100px; }
@@ -301,6 +304,9 @@ p {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-top: 110px; }
+  .join-our-team .join-our-team__picture {
+    width: 100%;
+    height: 100%; }
 
 .join-our-team__content {
   display: -webkit-box;
@@ -387,6 +393,83 @@ p {
   opacity: 0.6;
   line-height: 99px; }
 
+@media (max-width: 1200px) {
+  .size-section {
+    width: 100%;
+    padding: 20px; }
+  .join-our-team {
+    padding: 0; }
+  .join-our-team__content {
+    margin-top: 20px; }
+  .join-our-team__text {
+    margin-bottom: 20px; } }
+
+@media (max-width: 768px) {
+  .size-section {
+    width: 100%;
+    padding: 15px;
+    height: auto; }
+  .find-help__content {
+    margin-top: 80px; }
+  .find-help__button {
+    margin-bottom: 80px; }
+  .partners {
+    display: block;
+    text-align: center; }
+  .partners__item {
+    width: 13%;
+    height: auto;
+    margin: 0 10px; }
+  .support {
+    height: 423px;
+    background-position: center 278px; }
+  .support__title {
+    margin-top: 20px;
+    font-size: 38px; }
+  .join-our-team {
+    margin-top: 80px;
+    padding: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .join-our-team__picture {
+    width: 100%;
+    height: auto; }
+  .footer {
+    margin-top: 55px;
+    font-size: 12px;
+    line-height: 24px; }
+  .footer__nav-bar {
+    margin-top: 20px; }
+    .footer__nav-bar ul {
+      margin: 0;
+      padding: 0;
+      list-style: none; }
+      .footer__nav-bar ul li {
+        display: inline-block; }
+        .footer__nav-bar ul li a {
+          display: block;
+          padding: 6px 0;
+          text-transform: uppercase;
+          font-size: 16px;
+          -webkit-transition: 0.5s;
+          -o-transition: 0.5s;
+          transition: 0.5s;
+          font-size: 14px;
+          color: #999999;
+          margin: 0 10px; }
+  .footer__adres {
+    margin-top: 45px;
+    margin-bottom: 11px; }
+  .footer__cordinate {
+    margin-bottom: 11px; }
+  .footer__mail {
+    margin-bottom: 11px; }
+  .footer__tm {
+    line-height: 49px; } }
+
 @media (max-width: 480px) {
   body {
     margin: 0;
@@ -411,7 +494,6 @@ p {
     -webkit-box-shadow: 0 5px 2px 0 #008ea5;
             box-shadow: 0 5px 2px 0 #008ea5; }
   .find-help {
-    height: auto;
     background-size: auto 100%; }
   .logo {
     max-width: 55%;
@@ -447,28 +529,28 @@ p {
       opacity: 0.6; }
   .find-help__content {
     margin-top: 20px;
-    width: 50%; }
+    width: 60%; }
   .find-help__title::after {
-    width: 70px;
-    left: 110px;
+    content: '';
+    width: 100%;
+    height: 5px;
+    background-color: #00b5d2;
+    position: absolute;
+    top: 48px;
+    right: 0;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    width: 60px;
+    left: 120px;
     top: 40px; }
   .find-help__button {
     margin-top: 26px; }
   .partners {
-    -webkit-flex-wrap: wrap;
-        -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
-    height: auto;
-    -webkit-justify-content: space-around;
-        -ms-flex-pack: distribute;
-            justify-content: space-around; }
-  .partners__item {
-    padding: 10px; }
+    display: none; }
   .support {
     height: auto;
-    text-align: center;
-    background-position: center 200px;
-    background-size: 80% auto; }
+    background-position: center 200px; }
   .support__title {
     margin-top: 20px; }
   .support__text {
@@ -509,6 +591,4 @@ p {
     transition: 0.5s;
     width: 50px;
     left: 87px;
-    top: 25px; }
-  .footer {
-    margin-top: 55px; } }
+    top: 25px; } }
