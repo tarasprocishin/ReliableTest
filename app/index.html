@@ -55,7 +55,21 @@
             <a href="#" class="contact__button button">Contact Us</a>
         </section>
         <section class="photos size-section">
-            <img src="../img/Layer_3.png" alt="" class="photo__item">
+            <div class="prev toggle">
+                <a href="#">
+                   <i class="icon-left-open-big"></i>
+                </a>
+            </div>
+                <img src="../img/Layer_3.png" alt="" class="photo__item showing">
+                <img src="../img/Picture.png" alt="" class="photo__item">
+                <img src="../img/Layer_3.png" alt="" class="photo__item">
+                <img src="../img/Picture.png" alt="" class="photo__item">
+
+            <div class="next toggle">
+                <a href="#">
+                    <i class="icon-right-open-big"></i>
+                </a>
+            </div>
         </section>
         <section class="join-our-team size-section">
 
@@ -102,17 +116,8 @@
             Copyright Ⓒ 2017 McGrews Behavior Services All Rights Reserved
         </p>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script>
-        $(document).ready(function () {
-            let navBar = $('.find-help__nav-bar')
-            let burger = $('.burger')
+    <script src="./js/libs.min.js"></script>
+    <script src="js/common.js"></script>
 
-            burger.on('click', function (event) {
-                event.preventDefault();
-                navBar.toggleClass('find-help__nav-bar__active')
-            })
-        })
-    </script>
 </body>
 </html>

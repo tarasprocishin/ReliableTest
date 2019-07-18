@@ -2,13 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3723c49e-ad69-4a86-8728-a903cf2c1121" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/sass/_media.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fonts/fontello.eot" beforeDir="false" afterPath="$PROJECT_DIR$/app/fonts/fontello.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fonts/fontello.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/fonts/fontello.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fonts/fontello.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/app/fonts/fontello.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fonts/fontello.woff" beforeDir="false" afterPath="$PROJECT_DIR$/app/fonts/fontello.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/fonts/fontello.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/app/fonts/fontello.woff2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libs/normalize.css/normalize.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/libs/normalize.css/normalize.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sass/_media.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/_media.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sass/fontello.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/fontello.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/sass/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/main.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jquery/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/lodash/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/lodash/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/_baseClone.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/lodash/_baseClone.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/_baseMerge.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/lodash/_baseMerge.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/_createRound.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/lodash/_createRound.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/_safeGet.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/lodash/_safeGet.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/core.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/lodash/core.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/core.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/lodash/core.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/debounce.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/lodash/debounce.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/lodash.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/lodash/lodash.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/lodash.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/lodash/lodash.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/lodash/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lodash/template.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/lodash/template.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,30 +41,19 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.5093304">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="548">
-                  <caret line="110" column="49" selection-start-line="110" selection-start-column="49" selection-end-line="110" selection-end-column="49" />
+                <state relative-caret-position="240">
+                  <caret line="57" column="35" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
                   <folding>
-                    <element signature="n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#section#2;n#main#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#section#4;n#main#0;n#body#0;n#html#0;n#!!top" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="390">
-                  <caret line="26" column="22" lean-forward="true" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
                 </state>
               </provider>
             </entry>
@@ -51,8 +61,17 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/sass/fontello.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="38">
-                  <caret line="29" column="12" lean-forward="true" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+                <state relative-caret-position="457">
+                  <caret line="59" column="20" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="20" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="277">
+                  <caret line="206" column="9" selection-start-line="206" selection-start-column="9" selection-end-line="206" selection-end-column="9" />
                 </state>
               </provider>
             </entry>
@@ -60,31 +79,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/sass/_media.sass">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="90">
-                  <caret line="148" lean-forward="true" selection-start-line="148" selection-end-line="148" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/css/libs.min.css">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/css/main.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-5377">
-                  <caret line="47" column="19" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/gulpfile.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="375">
-                  <caret line="52" column="40" selection-start-line="52" selection-start-column="40" selection-end-line="52" selection-end-column="40" />
+                <state relative-caret-position="517">
+                  <caret line="258" selection-start-line="258" selection-end-line="258" />
                 </state>
               </provider>
             </entry>
@@ -106,12 +102,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/sass/_media.sass">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="330">
-                  <caret line="52" column="7" selection-start-line="52" selection-start-column="7" selection-end-line="52" selection-end-column="7" />
+                <state relative-caret-position="255">
+                  <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
                 </state>
               </provider>
             </entry>
@@ -127,9 +123,11 @@
       <find>/font/</find>
       <find>h2</find>
       <find>a</find>
-      <find>a</find>
       <find>widthSection</find>
       <find>title</find>
+      <find>nextImageIndex</find>
+      <find>nextImage</find>
+      <find>/</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -142,12 +140,14 @@
         <option value="$PROJECT_DIR$/app/sass/libs.sass" />
         <option value="$PROJECT_DIR$/dist/index.html" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
-        <option value="$PROJECT_DIR$/app/sass/fontello.scss" />
         <option value="$PROJECT_DIR$/app/css/main.css" />
         <option value="$PROJECT_DIR$/app/libs/normalize.css/normalize.css" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/app/js/common.js" />
+        <option value="$PROJECT_DIR$/app/sass/fontello.scss" />
         <option value="$PROJECT_DIR$/app/index.html" />
-        <option value="$PROJECT_DIR$/app/sass/_media.sass" />
         <option value="$PROJECT_DIR$/app/sass/main.sass" />
+        <option value="$PROJECT_DIR$/app/sass/_media.sass" />
       </list>
     </option>
   </component>
@@ -163,8 +163,29 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ReliableTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ReliableTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ReliableTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ReliableTest" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ReliableTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ReliableTest" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -224,7 +245,9 @@
       <workItem from="1563127808002" duration="503000" />
       <workItem from="1563177733809" duration="26972000" />
       <workItem from="1563249083649" duration="1572000" />
-      <workItem from="1563267542142" duration="27041000" />
+      <workItem from="1563267542142" duration="33040000" />
+      <workItem from="1563349768764" duration="1200000" />
+      <workItem from="1563431815348" duration="17194000" />
     </task>
     <task id="LOCAL-00001" summary="Implement section - &quot;find-help&quot;">
       <created>1563214921646</created>
@@ -254,11 +277,25 @@
       <option name="project" value="LOCAL" />
       <updated>1563274188423</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="made adaptive layout for 480px">
+      <created>1563305492967</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1563305492967</updated>
+    </task>
+    <task id="LOCAL-00006" summary="finished adaptive layout">
+      <created>1563311269622</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1563311269622</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58986000" />
+    <option name="totallyTimeSpent" value="83379000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -273,7 +310,7 @@
     <frame x="53" y="27" width="934" height="1053" extended-state="4" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" x="106" y="393" width="206" height="477" id="Project" order="0" sideWeight="0.7936772" weight="0.22612514" />
+      <window_info content_ui="combo" x="106" y="393" width="206" height="477" id="Project" order="0" sideWeight="0.7936772" weight="0.18002196" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Gulp" order="2" sideWeight="0.20632279" side_tool="true" weight="0.22612514" />
       <window_info id="npm" order="3" side_tool="true" />
@@ -303,17 +340,11 @@
     <MESSAGE value="Implement sections - &quot;Suport&quot;, &quot;Contact&quot;, &quot;Partners&quot;" />
     <MESSAGE value="Implement sections - &quot;Photos&quot;, end start &quot;join for us&quot; section" />
     <MESSAGE value="finished the layout" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished the layout" />
+    <MESSAGE value="made adaptive layout for 480px" />
+    <MESSAGE value="finished adaptive layout" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished adaptive layout" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/libs/magnific-popup/.jshintrc">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-128" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/sass/_normalize.sass" />
     <entry file="file://$PROJECT_DIR$/.bowerrc">
       <provider selected="true" editor-type-id="text-editor">
@@ -380,39 +411,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="52" column="40" selection-start-line="52" selection-start-column="40" selection-end-line="52" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/css/libs.min.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/fontello.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="29" column="12" lean-forward="true" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/css/libs.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5377">
-          <caret line="47" column="19" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/libs/normalize.css/normalize.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="307">
           <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/css/libs.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="47" column="19" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="52" column="40" selection-start-line="52" selection-start-column="40" selection-end-line="52" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/css/libs.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/img/Layer_2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/img/Picture.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/img/Partnership_Health_Plan_of_CA-175.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/img/jared-sluyter-342881.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/img/Kaiser_Permanente-143.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/img/Layer_3.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/libs/magnific-popup/.jshintrc">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/fonts/fontello.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/fonts/fontello.eot">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/sass/_libs.sass">
       <provider selected="true" editor-type-id="text-editor">
@@ -421,31 +472,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
+    <entry file="file://$PROJECT_DIR$/app/js/common.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="548">
-          <caret line="110" column="49" selection-start-line="110" selection-start-column="49" selection-end-line="110" selection-end-column="49" />
-          <folding>
-            <element signature="n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#2;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#4;n#main#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="128">
+          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/sass/_media.sass">
+    <entry file="file://$PROJECT_DIR$/app/js/libs.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="148" lean-forward="true" selection-start-line="148" selection-end-line="148" />
+        <state relative-caret-position="-31149" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-113" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/fontello.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="59" column="20" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="57" column="35" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
+          <folding>
+            <element signature="n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="22" lean-forward="true" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+        <state relative-caret-position="277">
+          <caret line="206" column="9" selection-start-line="206" selection-start-column="9" selection-end-line="206" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/_media.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
         </state>
       </provider>
     </entry>
